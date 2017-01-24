@@ -22,4 +22,12 @@ public class MyResource {
     public String getIt() {
         return "Hello, Heroku!";
     }
+
+    @GET
+    @Path("statements")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String statements() {
+        return "{}";
+    }
+
 }
