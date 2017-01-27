@@ -5,11 +5,8 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-/**
- * Root resource (exposed at "myresource" path)
- */
-@Path("myresource")
-public class MyResource {
+@Path("statements")
+public class StatementsController {
 
     /**
      * Method handling HTTP GET requests. The returned object will be sent
@@ -24,7 +21,6 @@ public class MyResource {
     }
 
     @GET
-    @Path("statements")
     @Produces(MediaType.APPLICATION_JSON)
     public String statements() {
         return "{}";
