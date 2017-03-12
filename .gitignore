@@ -70,3 +70,4 @@ fabric.properties
 jersey-heroku-webapp.iml
 simple-heroku-webapp.iml
 target/
+/.idea/

@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.adamkoch</groupId>
-    <artifactId>jersey-heroku-webapp</artifactId>
+    <artifactId>LRS</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>jersey-heroku-webapp</name>
+    <name>Learning Record Store</name>
 
     <dependencyManagement>
         <dependencies>
@@ -67,8 +67,8 @@
                 <version>2.5.1</version>
                 <inherited>true</inherited>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
             <plugin>
